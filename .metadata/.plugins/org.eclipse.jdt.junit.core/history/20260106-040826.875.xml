@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CancelBookingHbsTest" project="HotelRoomBookingSystem" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.CancelBookingHbsTest" incomplete="true">
+    <testsuite name="testCancelBooking_NotInWaitingList" incomplete="true">
+      <testcase name="[0] User, [STassgn.Booking@2893de87, STassgn.Booking@55ca8de8, STassgn.Booking@2c34f934, STassgn.Booking@12d3a4e9], Booking (testCancelBooking_NotInWaitingList)" classname="STassgn.CancelBookingHbsTest" time="0.575"/>
+      <testcase name="[1] User, [STassgn.Booking@2893de87, STassgn.Booking@55ca8de8, STassgn.Booking@2c34f934, STassgn.Booking@12d3a4e9], Booking (testCancelBooking_NotInWaitingList)" classname="STassgn.CancelBookingHbsTest" incomplete="true"/>
+      <testcase name="[2] User, [STassgn.Booking@2893de87, STassgn.Booking@55ca8de8, STassgn.Booking@2c34f934, STassgn.Booking@12d3a4e9], Booking (testCancelBooking_NotInWaitingList)" classname="STassgn.CancelBookingHbsTest" incomplete="true"/>
+    </testsuite>
+    <testsuite name="testCancelBooking_InWaitingList" incomplete="true">
+      <testcase name="[0] User, [STassgn.Booking@5762806e, STassgn.Booking@17c386de, STassgn.Booking@5af97850, STassgn.Booking@5ef60048], Booking (testCancelBooking_InWaitingList)" classname="STassgn.CancelBookingHbsTest" time="0.001"/>
+      <testcase name="[1] User, [STassgn.Booking@5762806e, STassgn.Booking@17c386de, STassgn.Booking@5af97850, STassgn.Booking@5ef60048], Booking (testCancelBooking_InWaitingList)" classname="STassgn.CancelBookingHbsTest" incomplete="true"/>
+      <testcase name="[2] User, [STassgn.Booking@5762806e, STassgn.Booking@17c386de, STassgn.Booking@5af97850, STassgn.Booking@5ef60048], Booking (testCancelBooking_InWaitingList)" classname="STassgn.CancelBookingHbsTest" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="Unrooted Tests" time="0.001" displayname="Unrooted Tests">
+    <testcase name="[1] User\, [STassgn.Booking@2893de87\, STassgn.Booking@2c34f934\, STassgn.Booking@12d3a4e9]\, Booking (testCancelBooking_NotInWaitingList)" classname="STassgn.CancelBookingHbsTest" time="0.001" displayname="[1] User\, [STassgn.Booking@2893de87\, STassgn.Booking@2c34f934\, STassgn.Booking@12d3a4e9]\, Booking (testCancelBooking_NotInWaitingList)(STassgn.CancelBookingHbsTest)"/>
+    <testcase name="[2] User\, [STassgn.Booking@2893de87\, STassgn.Booking@12d3a4e9]\, Booking (testCancelBooking_NotInWaitingList)" classname="STassgn.CancelBookingHbsTest" time="0.001" displayname="[2] User\, [STassgn.Booking@2893de87\, STassgn.Booking@12d3a4e9]\, Booking (testCancelBooking_NotInWaitingList)(STassgn.CancelBookingHbsTest)"/>
+    <testcase name="[1] User\, [STassgn.Booking@5762806e\, STassgn.Booking@5af97850\, STassgn.Booking@5ef60048]\, Booking (testCancelBooking_InWaitingList)" classname="STassgn.CancelBookingHbsTest" time="0.001" displayname="[1] User\, [STassgn.Booking@5762806e\, STassgn.Booking@5af97850\, STassgn.Booking@5ef60048]\, Booking (testCancelBooking_InWaitingList)(STassgn.CancelBookingHbsTest)"/>
+    <testcase name="[2] User\, [STassgn.Booking@5762806e\, STassgn.Booking@5ef60048]\, Booking (testCancelBooking_InWaitingList)" classname="STassgn.CancelBookingHbsTest" time="0.001" displayname="[2] User\, [STassgn.Booking@5762806e\, STassgn.Booking@5ef60048]\, Booking (testCancelBooking_InWaitingList)(STassgn.CancelBookingHbsTest)"/>
+  </testsuite>
+</testrun>

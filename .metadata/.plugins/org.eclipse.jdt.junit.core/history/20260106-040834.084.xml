@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CancelBookingTest" project="HotelRoomBookingSystem" tests="15" started="15" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.CancelBookingTest" time="0.557">
+    <testsuite name="testCancelBooking_createdBookingBefore_chooseToCancel" time="0.524">
+      <testcase name="[0] [STassgn.Booking@214b199c, STassgn.Booking@20d3d15a, STassgn.Booking@2893de87, STassgn.Booking@55ca8de8], User, Booking (testCancelBooking_createdBookingBefore_chooseToCancel)" classname="STassgn.CancelBookingTest" time="0.517"/>
+      <testcase name="[1] [STassgn.Booking@214b199c, STassgn.Booking@20d3d15a, STassgn.Booking@2893de87, STassgn.Booking@55ca8de8], User, Booking (testCancelBooking_createdBookingBefore_chooseToCancel)" classname="STassgn.CancelBookingTest" time="0.002"/>
+      <testcase name="[2] [STassgn.Booking@214b199c, STassgn.Booking@20d3d15a, STassgn.Booking@2893de87, STassgn.Booking@55ca8de8], User, Booking (testCancelBooking_createdBookingBefore_chooseToCancel)" classname="STassgn.CancelBookingTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="testCancelBooking_noCreatedBookingBefore" time="0.024">
+      <testcase name="[0] [STassgn.Booking@5762806e, STassgn.Booking@17c386de], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.004"/>
+      <testcase name="[1] [STassgn.Booking@5762806e, STassgn.Booking@17c386de], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+      <testcase name="[2] [STassgn.Booking@5af97850, STassgn.Booking@5ef60048], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.002"/>
+      <testcase name="[3] [], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.002"/>
+      <testcase name="[4] [], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+      <testcase name="[5] [], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+      <testcase name="[6] [STassgn.Booking@5762806e, STassgn.Booking@17c386de], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+      <testcase name="[7] [STassgn.Booking@5af97850, STassgn.Booking@5ef60048], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+      <testcase name="[8] [], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="testCancelBooking_createdBookingBefore_chooseNotToCancel" time="0.007">
+      <testcase name="[0] [STassgn.Booking@1d548a08, STassgn.Booking@16aa0a0a, STassgn.Booking@780cb77, STassgn.Booking@691a7f8f], User (testCancelBooking_createdBookingBefore_chooseNotToCancel)" classname="STassgn.CancelBookingTest" time="0.002"/>
+      <testcase name="[1] [STassgn.Booking@1d548a08, STassgn.Booking@16aa0a0a, STassgn.Booking@780cb77, STassgn.Booking@691a7f8f], User (testCancelBooking_createdBookingBefore_chooseNotToCancel)" classname="STassgn.CancelBookingTest" time="0.002"/>
+      <testcase name="[2] [STassgn.Booking@1d548a08, STassgn.Booking@16aa0a0a, STassgn.Booking@780cb77, STassgn.Booking@691a7f8f], User (testCancelBooking_createdBookingBefore_chooseNotToCancel)" classname="STassgn.CancelBookingTest" time="0.001"/>
+    </testsuite>
+  </testsuite>
+</testrun>

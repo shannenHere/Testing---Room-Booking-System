@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CheckMaxBookingLimitTest" project="HotelRoomBookingSystem" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.CheckMaxBookingLimitTest" time="0.513">
+    <testsuite name="testCheckMaxBookingLimit_ExceedLimit" time="0.505">
+      <testcase name="[0] User, [STassgn.Booking@2893de87, STassgn.Booking@55ca8de8, STassgn.Booking@2c34f934, STassgn.Booking@12d3a4e9, STassgn.Booking@240237d2, STassgn.Booking@25a65b77] (testCheckMaxBookingLimit_ExceedLimit)" classname="STassgn.CheckMaxBookingLimitTest" time="0.502"/>
+      <testcase name="[1] User, [STassgn.Booking@2893de87, STassgn.Booking@55ca8de8, STassgn.Booking@2c34f934, STassgn.Booking@12d3a4e9, STassgn.Booking@240237d2, STassgn.Booking@25a65b77] (testCheckMaxBookingLimit_ExceedLimit)" classname="STassgn.CheckMaxBookingLimitTest" time="0.001"/>
+      <testcase name="[2] User, [STassgn.Booking@2893de87, STassgn.Booking@55ca8de8, STassgn.Booking@2c34f934, STassgn.Booking@12d3a4e9, STassgn.Booking@240237d2, STassgn.Booking@25a65b77] (testCheckMaxBookingLimit_ExceedLimit)" classname="STassgn.CheckMaxBookingLimitTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="testCheckMaxBookingLimit_WithinRange" time="0.007">
+      <testcase name="[0] User, [STassgn.Booking@5af97850, STassgn.Booking@5ef60048] (testCheckMaxBookingLimit_WithinRange)" classname="STassgn.CheckMaxBookingLimitTest" time="0.001"/>
+      <testcase name="[1] User, [STassgn.Booking@1d548a08, STassgn.Booking@16aa0a0a, STassgn.Booking@5af97850, STassgn.Booking@5ef60048] (testCheckMaxBookingLimit_WithinRange)" classname="STassgn.CheckMaxBookingLimitTest" time="0.0"/>
+      <testcase name="[2] User, [STassgn.Booking@1d548a08, STassgn.Booking@16aa0a0a, STassgn.Booking@5ef60048] (testCheckMaxBookingLimit_WithinRange)" classname="STassgn.CheckMaxBookingLimitTest" time="0.001"/>
+      <testcase name="[3] User, [STassgn.Booking@1d548a08, STassgn.Booking@16aa0a0a, STassgn.Booking@5af97850, STassgn.Booking@5ef60048] (testCheckMaxBookingLimit_WithinRange)" classname="STassgn.CheckMaxBookingLimitTest" time="0.001"/>
+      <testcase name="[4] User, [STassgn.Booking@1d548a08, STassgn.Booking@16aa0a0a, STassgn.Booking@5af97850] (testCheckMaxBookingLimit_WithinRange)" classname="STassgn.CheckMaxBookingLimitTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

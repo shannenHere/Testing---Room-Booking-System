@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PrinterTest" project="HotelRoomBookingSystem" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.PrinterTest" time="0.583">
+    <testsuite name="testPrintInfo_NoBookings" time="0.569">
+      <testcase name="[0] User, [] (testPrintInfo_NoBookings)" classname="STassgn.PrinterTest" time="0.561"/>
+      <testcase name="[1] User, [] (testPrintInfo_NoBookings)" classname="STassgn.PrinterTest" time="0.002"/>
+      <testcase name="[2] User, [] (testPrintInfo_NoBookings)" classname="STassgn.PrinterTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="testPrintInfo" time="0.014">
+      <testcase name="[0] User, [STassgn.Booking@14a2f921] (testPrintInfo)" classname="STassgn.PrinterTest" time="0.005"/>
+      <testcase name="[1] User, [STassgn.Booking@3c87521] (testPrintInfo)" classname="STassgn.PrinterTest" time="0.005"/>
+      <testcase name="[2] User, [STassgn.Booking@2aece37d] (testPrintInfo)" classname="STassgn.PrinterTest" time="0.002"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RoomTest" project="HotelRoomBookingSystem" tests="11" started="11" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.RoomTest" time="0.001">
+    <testsuite name="testCancelBooking" time="0.001">
+      <testcase name="[0] 2, 3, 4, VIP, 3, 3, 4 (testCancelBooking)" classname="STassgn.RoomTest" time="0.0"/>
+      <testcase name="[1] 0, 3, 4, Deluxe, 0, 4, 4 (testCancelBooking)" classname="STassgn.RoomTest" time="0.001"/>
+      <testcase name="[2] 0, 0, 0, Standard, 0, 0, 1 (testCancelBooking)" classname="STassgn.RoomTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="testIllegalCancelBooking" time="0.0">
+      <testcase name="[0] 2, 3, 4, Normal (testIllegalCancelBooking)" classname="STassgn.RoomTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="testRoomType" time="0.0">
+      <testcase name="[0] 2, 3, 4, VIP (testRoomType)" classname="STassgn.RoomTest" time="0.0"/>
+      <testcase name="[1] 0, 3, 4, Deluxe (testRoomType)" classname="STassgn.RoomTest" time="0.0"/>
+      <testcase name="[2] 0, 0, 1, Standard (testRoomType)" classname="STassgn.RoomTest" time="0.0"/>
+      <testcase name="[3] 0, 0, 0, No rooms available (testRoomType)" classname="STassgn.RoomTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="testRoomAvailability" time="0.0">
+      <testcase name="[0] 2, 3, 4, VIP, true (testRoomAvailability)" classname="STassgn.RoomTest" time="0.0"/>
+      <testcase name="[1] 0, 3, 4, VIP, false (testRoomAvailability)" classname="STassgn.RoomTest" time="0.0"/>
+      <testcase name="[2] 0, 0, 0, No rooms available, false (testRoomAvailability)" classname="STassgn.RoomTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AddWaitingTest" project="HotelRoomBookingSystem" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.AddWaitingTest" time="0.346">
+    <testsuite name="testAddWaiting" time="0.345">
+      <testcase name="[0] User, Added John to VIP waiting list. , [STassgn.User@5a4aa2f2] (testAddWaiting)" classname="STassgn.AddWaitingTest" time="0.342"/>
+      <testcase name="[1] User, Added Alice to Member waiting list. , [STassgn.User@35fc6dc4] (testAddWaiting)" classname="STassgn.AddWaitingTest" time="0.001"/>
+      <testcase name="[2] User, Added Bob to Normal waiting list. , [STassgn.User@7fe8ea47] (testAddWaiting)" classname="STassgn.AddWaitingTest" time="0.001"/>
+    </testsuite>
+    <testcase name="testAddWaitingInvalidUserType" classname="STassgn.AddWaitingTest" time="0.001"/>
+  </testsuite>
+</testrun>

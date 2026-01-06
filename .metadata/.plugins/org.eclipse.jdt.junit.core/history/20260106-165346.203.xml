@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UnitTestSuite" project="HotelRoomBookingSystem" tests="44" started="44" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.UnitTestSuite" time="1.083">
+    <testsuite name="STassgn.SetBookingTest" time="0.996">
+      <testsuite name="testSetBooking_Deluxewanted_DeluxeAvailable" time="0.98">
+        <testcase name="[0] Deluxe, Deluxe (testSetBooking_Deluxewanted_DeluxeAvailable)" classname="STassgn.SetBookingTest" time="0.98"/>
+      </testsuite>
+      <testsuite name="testSetBooking_InvalidRoomType" time="0.001">
+        <testcase name="[0] Normal (testSetBooking_InvalidRoomType)" classname="STassgn.SetBookingTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="testSetBooking_VIPwanted_VIPDeluxeNotAvailable_StandardAvailable" time="0.003">
+        <testcase name="[0] VIP, Standard (testSetBooking_VIPwanted_VIPDeluxeNotAvailable_StandardAvailable)" classname="STassgn.SetBookingTest" time="0.003"/>
+      </testsuite>
+      <testsuite name="testSetBooking_Deluxewanted_NoAvailableRooms" time="0.001">
+        <testcase name="[0] Deluxe, WaitingList (testSetBooking_Deluxewanted_NoAvailableRooms)" classname="STassgn.SetBookingTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="testSetBooking_VIPwanted_VIPRoomAvailable" time="0.001">
+        <testcase name="[0] VIP, VIP (testSetBooking_VIPwanted_VIPRoomAvailable)" classname="STassgn.SetBookingTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="testSetBooking_Deluxewanted_DeluxeNotAvailable_StandardAvailable" time="0.002">
+        <testcase name="[0] Deluxe, Standard (testSetBooking_Deluxewanted_DeluxeNotAvailable_StandardAvailable)" classname="STassgn.SetBookingTest" time="0.002"/>
+      </testsuite>
+      <testsuite name="testSetBooking_VIPwanted_VIPNotAvailable_DeluxeAvailable" time="0.001">
+        <testcase name="[0] VIP, Deluxe (testSetBooking_VIPwanted_VIPNotAvailable_DeluxeAvailable)" classname="STassgn.SetBookingTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="testSetBooking_Standardwanted_StandardNotAvailable" time="0.001">
+        <testcase name="[0] Standard, WaitingList (testSetBooking_Standardwanted_StandardNotAvailable)" classname="STassgn.SetBookingTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="testSetBooking_Standardwanted_StandardAvailable" time="0.0">
+        <testcase name="[0] Standard, Standard (testSetBooking_Standardwanted_StandardAvailable)" classname="STassgn.SetBookingTest" time="0.0"/>
+      </testsuite>
+      <testsuite name="testSetBooking_VIPwanted_AllRoomsNotAvailable" time="0.001">
+        <testcase name="[0] VIP, WaitingList (testSetBooking_VIPwanted_AllRoomsNotAvailable)" classname="STassgn.SetBookingTest" time="0.001"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="STassgn.CancelBookingTest" time="0.037">
+      <testsuite name="testCancelBooking_createdBookingBefore_chooseToCancel" time="0.011">
+        <testcase name="[0] [STassgn.Booking@6156496, STassgn.Booking@3c153a1, STassgn.Booking@b62fe6d, STassgn.Booking@13acb0d1], User, Booking (testCancelBooking_createdBookingBefore_chooseToCancel)" classname="STassgn.CancelBookingTest" time="0.007"/>
+        <testcase name="[1] [STassgn.Booking@6156496, STassgn.Booking@3c153a1, STassgn.Booking@b62fe6d, STassgn.Booking@13acb0d1], User, Booking (testCancelBooking_createdBookingBefore_chooseToCancel)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[2] [STassgn.Booking@6156496, STassgn.Booking@3c153a1, STassgn.Booking@b62fe6d, STassgn.Booking@13acb0d1], User, Booking (testCancelBooking_createdBookingBefore_chooseToCancel)" classname="STassgn.CancelBookingTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="testCancelBooking_noCreatedBookingBefore" time="0.018">
+        <testcase name="[0] [STassgn.Booking@3e3047e6, STassgn.Booking@37e547da], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.002"/>
+        <testcase name="[1] [STassgn.Booking@3e3047e6, STassgn.Booking@37e547da], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[2] [STassgn.Booking@2b6856dd, STassgn.Booking@5db45159], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[3] [], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[4] [], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[5] [], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[6] [STassgn.Booking@3e3047e6, STassgn.Booking@37e547da], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[7] [STassgn.Booking@2b6856dd, STassgn.Booking@5db45159], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[8] [], User (testCancelBooking_noCreatedBookingBefore)" classname="STassgn.CancelBookingTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="testCancelBooking_createdBookingBefore_chooseNotToCancel" time="0.005">
+        <testcase name="[0] [STassgn.Booking@6107227e, STassgn.Booking@7c417213, STassgn.Booking@15761df8, STassgn.Booking@6ab7a896], User (testCancelBooking_createdBookingBefore_chooseNotToCancel)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[1] [STassgn.Booking@6107227e, STassgn.Booking@7c417213, STassgn.Booking@15761df8, STassgn.Booking@6ab7a896], User (testCancelBooking_createdBookingBefore_chooseNotToCancel)" classname="STassgn.CancelBookingTest" time="0.001"/>
+        <testcase name="[2] [STassgn.Booking@6107227e, STassgn.Booking@7c417213, STassgn.Booking@15761df8, STassgn.Booking@6ab7a896], User (testCancelBooking_createdBookingBefore_chooseNotToCancel)" classname="STassgn.CancelBookingTest" time="0.001"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="STassgn.BookingRecordApplicationTest" time="0.002">
+      <testcase name="testInitializeBookings" classname="STassgn.BookingRecordApplicationTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="STassgn.PrinterTest" time="0.023">
+      <testsuite name="testPrintInfo_NoBookings" time="0.009">
+        <testcase name="[0] User, [] (testPrintInfo_NoBookings)" classname="STassgn.PrinterTest" time="0.004"/>
+        <testcase name="[1] User, [] (testPrintInfo_NoBookings)" classname="STassgn.PrinterTest" time="0.002"/>
+        <testcase name="[2] User, [] (testPrintInfo_NoBookings)" classname="STassgn.PrinterTest" time="0.002"/>
+      </testsuite>
+      <testsuite name="testPrintInfo" time="0.013">
+        <testcase name="[0] User, [STassgn.Booking@60611244] (testPrintInfo)" classname="STassgn.PrinterTest" time="0.004"/>
+        <testcase name="[1] User, [STassgn.Booking@3745e5c6] (testPrintInfo)" classname="STassgn.PrinterTest" time="0.005"/>
+        <testcase name="[2] User, [STassgn.Booking@5e4c8041] (testPrintInfo)" classname="STassgn.PrinterTest" time="0.003"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="STassgn.RoomTest" time="0.023">
+      <testsuite name="testCancelBooking" time="0.011">
+        <testcase name="[0] 2, 3, 4, VIP, 3, 3, 4 (testCancelBooking)" classname="STassgn.RoomTest" time="0.008"/>
+        <testcase name="[1] 0, 3, 4, Deluxe, 0, 4, 4 (testCancelBooking)" classname="STassgn.RoomTest" time="0.0"/>
+        <testcase name="[2] 0, 0, 0, Standard, 0, 0, 1 (testCancelBooking)" classname="STassgn.RoomTest" time="0.001"/>
+      </testsuite>
+      <testsuite name="testIllegalCancelBooking" time="0.003">
+        <testcase name="[0] 2, 3, 4, Normal (testIllegalCancelBooking)" classname="STassgn.RoomTest" time="0.003"/>
+      </testsuite>
+      <testsuite name="testRoomType" time="0.004">
+        <testcase name="[0] 2, 3, 4, VIP (testRoomType)" classname="STassgn.RoomTest" time="0.002"/>
+        <testcase name="[1] 0, 3, 4, Deluxe (testRoomType)" classname="STassgn.RoomTest" time="0.0"/>
+        <testcase name="[2] 0, 0, 1, Standard (testRoomType)" classname="STassgn.RoomTest" time="0.001"/>
+        <testcase name="[3] 0, 0, 0, No rooms available (testRoomType)" classname="STassgn.RoomTest" time="0.0"/>
+      </testsuite>
+      <testsuite name="testRoomAvailability" time="0.004">
+        <testcase name="[0] 2, 3, 4, VIP, true (testRoomAvailability)" classname="STassgn.RoomTest" time="0.003"/>
+        <testcase name="[1] 0, 3, 4, VIP, false (testRoomAvailability)" classname="STassgn.RoomTest" time="0.0"/>
+        <testcase name="[2] 0, 0, 0, No rooms available, false (testRoomAvailability)" classname="STassgn.RoomTest" time="0.001"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="STassgn.UserRecordApplicationTest" time="0.0">
+      <testcase name="testInitializeUsers" classname="STassgn.UserRecordApplicationTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

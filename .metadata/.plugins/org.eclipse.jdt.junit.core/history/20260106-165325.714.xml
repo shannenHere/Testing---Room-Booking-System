@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SetBookingTest" project="HotelRoomBookingSystem" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.SetBookingTest" time="0.993">
+    <testsuite name="testSetBooking_Deluxewanted_DeluxeAvailable" time="0.972">
+      <testcase name="[0] Deluxe, Deluxe (testSetBooking_Deluxewanted_DeluxeAvailable)" classname="STassgn.SetBookingTest" time="0.972"/>
+    </testsuite>
+    <testsuite name="testSetBooking_InvalidRoomType" time="0.002">
+      <testcase name="[0] Normal (testSetBooking_InvalidRoomType)" classname="STassgn.SetBookingTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="testSetBooking_VIPwanted_VIPDeluxeNotAvailable_StandardAvailable" time="0.003">
+      <testcase name="[0] VIP, Standard (testSetBooking_VIPwanted_VIPDeluxeNotAvailable_StandardAvailable)" classname="STassgn.SetBookingTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="testSetBooking_Deluxewanted_NoAvailableRooms" time="0.002">
+      <testcase name="[0] Deluxe, WaitingList (testSetBooking_Deluxewanted_NoAvailableRooms)" classname="STassgn.SetBookingTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="testSetBooking_VIPwanted_VIPRoomAvailable" time="0.002">
+      <testcase name="[0] VIP, VIP (testSetBooking_VIPwanted_VIPRoomAvailable)" classname="STassgn.SetBookingTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="testSetBooking_Deluxewanted_DeluxeNotAvailable_StandardAvailable" time="0.002">
+      <testcase name="[0] Deluxe, Standard (testSetBooking_Deluxewanted_DeluxeNotAvailable_StandardAvailable)" classname="STassgn.SetBookingTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="testSetBooking_VIPwanted_VIPNotAvailable_DeluxeAvailable" time="0.002">
+      <testcase name="[0] VIP, Deluxe (testSetBooking_VIPwanted_VIPNotAvailable_DeluxeAvailable)" classname="STassgn.SetBookingTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="testSetBooking_Standardwanted_StandardNotAvailable" time="0.002">
+      <testcase name="[0] Standard, WaitingList (testSetBooking_Standardwanted_StandardNotAvailable)" classname="STassgn.SetBookingTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="testSetBooking_Standardwanted_StandardAvailable" time="0.002">
+      <testcase name="[0] Standard, Standard (testSetBooking_Standardwanted_StandardAvailable)" classname="STassgn.SetBookingTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="testSetBooking_VIPwanted_AllRoomsNotAvailable" time="0.002">
+      <testcase name="[0] VIP, WaitingList (testSetBooking_VIPwanted_AllRoomsNotAvailable)" classname="STassgn.SetBookingTest" time="0.002"/>
+    </testsuite>
+  </testsuite>
+</testrun>

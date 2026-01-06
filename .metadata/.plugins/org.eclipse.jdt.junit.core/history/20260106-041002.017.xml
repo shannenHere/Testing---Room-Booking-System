@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RemoveWaitingTest" project="HotelRoomBookingSystem" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.RemoveWaitingTest" time="0.805">
+    <testcase name="testRemoveWaitingNullUser" classname="STassgn.RemoveWaitingTest" time="0.775"/>
+    <testsuite name="testRemoveWaiting" time="0.024">
+      <testcase name="[0] User (testRemoveWaiting)" classname="STassgn.RemoveWaitingTest" time="0.021"/>
+      <testcase name="[1] User (testRemoveWaiting)" classname="STassgn.RemoveWaitingTest" time="0.001"/>
+      <testcase name="[2] User (testRemoveWaiting)" classname="STassgn.RemoveWaitingTest" time="0.0"/>
+    </testsuite>
+    <testcase name="testRemoveWaitingInvalidUserType" classname="STassgn.RemoveWaitingTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GetLoginInfoTest" project="HotelRoomBookingSystem" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.GetLoginInfoTest" time="0.677">
+    <testsuite name="testGetLoginInfo" time="0.675">
+      <testcase name="[0] User, [STassgn.User@5a4aa2f2, STassgn.User@6591f517, STassgn.User@345965f2] (testGetLoginInfo)" classname="STassgn.GetLoginInfoTest" time="0.671"/>
+      <testcase name="[1] User, [STassgn.User@5a4aa2f2, STassgn.User@6591f517, STassgn.User@345965f2] (testGetLoginInfo)" classname="STassgn.GetLoginInfoTest" time="0.002"/>
+      <testcase name="[2] User, [STassgn.User@5a4aa2f2, STassgn.User@6591f517, STassgn.User@345965f2] (testGetLoginInfo)" classname="STassgn.GetLoginInfoTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="testIllegalGetLoginInfo" time="0.001">
+      <testcase name="[0] User, [STassgn.User@226a82c4, STassgn.User@731f8236, STassgn.User@255b53dc] (testIllegalGetLoginInfo)" classname="STassgn.GetLoginInfoTest" time="0.001"/>
+    </testsuite>
+  </testsuite>
+</testrun>

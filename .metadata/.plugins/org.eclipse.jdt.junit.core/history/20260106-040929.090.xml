@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GetWaitingTest" project="HotelRoomBookingSystem" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="STassgn.GetWaitingTest" time="0.0">
+    <testsuite name="testGetWaiting" time="0.0">
+      <testcase name="[0] User, [STassgn.User@5a4aa2f2] (testGetWaiting)" classname="STassgn.GetWaitingTest" time="0.0"/>
+      <testcase name="[1] User, [STassgn.User@35fc6dc4] (testGetWaiting)" classname="STassgn.GetWaitingTest" time="0.0"/>
+      <testcase name="[2] User, [STassgn.User@7fe8ea47] (testGetWaiting)" classname="STassgn.GetWaitingTest" time="0.0"/>
+    </testsuite>
+    <testcase name="testIllegalGetWaiting" classname="STassgn.GetWaitingTest" time="0.0"/>
+  </testsuite>
+</testrun>
